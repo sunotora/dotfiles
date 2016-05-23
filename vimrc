@@ -38,7 +38,7 @@ filetype plugin indent on
 NeoBundleCheck
 
 
-set fileenc = utf-8
+set fenc=utf-8
 
 set number
 set cursorline

@@ -28,7 +28,10 @@ NeoBundle 'ujihisa/unite-colorscheme'
 NeoBundle 'Shougo/echodoc'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tpope/vim-surround' 
+NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'cohama/agit.vim'
+
 
 call neobundle#end()
 
@@ -53,6 +56,14 @@ nnoremap <Left> <nop>
 nnoremap <Right> <nop>
 nnoremap <Up> <nop>
 nnoremap <Down> <nop>
+inoremap <Left> <nop>
+inoremap <Right> <nop>
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+vnoremap <Left> <nop>
+vnoremap <Right> <nop>
+vnoremap <Up> <nop>
+vnoremap <Down> <nop>
 """"""""""""""""""""""""""""""
 " 全角スペースの表示
 """"""""""""""""""""""""""""""
@@ -69,3 +80,6 @@ if has('syntax')
     call ZenkakuSpace()
 endif
 """"""""""""""""""""""""""""""
+
+
+

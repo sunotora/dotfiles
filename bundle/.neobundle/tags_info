@@ -1,3 +1,4 @@
+agit.vim
 echodoc
 lightline.vim
 neobundle.vim
@@ -5,6 +6,7 @@ neocomplete.vim
 nerdtree
 unite-colorscheme
 unite.vim
+vim-fugitive
 vim-surround
 vim-textmanip
 vimfiler.vim

@@ -1,35 +1,38 @@
-# ã“ã® viminfo ãƒ•ã‚¡ã‚¤ãƒ«ã¯ Vim 7.4 ã«ã‚ˆã£ã¦ç”Ÿæˆã•ã‚Œã¾ã—ãŸ.
-# å¤‰æ›´ã™ã‚‹éš›ã«ã¯ååˆ†æ³¨æ„ã—ã¦ãã ã•ã„!
+# ‚±‚Ì viminfo ƒtƒ@ƒCƒ‹‚Í Vim 7.4 ‚É‚æ‚Á‚Ä¶¬‚³‚ê‚Ü‚µ‚½.
+# •ÏX‚·‚éÛ‚É‚Í\•ª’ˆÓ‚µ‚Ä‚­‚¾‚³‚¢!
 
-# ã“ã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒæ›¸ã‹ã‚ŒãŸæ™‚ã® 'encoding' ã®å€¤
-*encoding=utf-8
+# ‚±‚Ìƒtƒ@ƒCƒ‹‚ª‘‚©‚ê‚½Žž‚Ì 'encoding' ‚Ì’l
+*encoding=cp932
 
 
 # hlsearch on (H) or off (h):
 ~h
-# æœ€å¾Œã® æ¤œç´¢ãƒ‘ã‚¿ãƒ¼ãƒ³:
-~MSle0~/â—‹
+# ÅŒã‚Ì ŒŸõƒpƒ^[ƒ“:
+~MSle0~/›
 
-# æœ€å¾Œã® Substitute æ¤œç´¢ãƒ‘ã‚¿ãƒ¼ãƒ³:
-~MSle0&â—‹
+# ÅŒã‚Ì Substitute ŒŸõƒpƒ^[ƒ“:
+~MSle0&›
 
-# æœ€å¾Œã«ç½®æ›ã•ã‚ŒãŸæ–‡å­—åˆ—:
+# ÅŒã‚É’uŠ·‚³‚ê‚½•¶Žš—ñ:
 $
 
-# æ¤œç´¢æ–‡å­—åˆ— é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+# ŒŸõ•¶Žš—ñ €–Ú‚Ì—š—ð (V‚µ‚¢‚à‚Ì‚©‚çŒÃ‚¢‚à‚Ì‚Ö):
+?/ 
+?/fileenc
+?/fenc
 ?/\\
-? ãƒ»
-?/ã¯
-?/æŠœç²‹
+? E
+?/‚Í
+?/”²ˆ
 ?/>
 ?/Ros
-?/ä¸­é–“å‡¦ç†
+?/’†ŠÔˆ—
 ?/IDE
-?/ãªã‚‹
-?/åˆ¥
+?/‚È‚é
+?/•Ê
 ?/var hoge
 ? @$
-? â—‹
+? ›
 ?/ergg
 ?/erg
 ?/vim
@@ -43,13 +46,13 @@ $
 ?/D
 ?/Cursor
 
-# å¼ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+# Ž® €–Ú‚Ì—š—ð (V‚µ‚¢‚à‚Ì‚©‚çŒÃ‚¢‚à‚Ì‚Ö):
 
-# å…¥åŠ›è¡Œ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+# “ü—Ís €–Ú‚Ì—š—ð (V‚µ‚¢‚à‚Ì‚©‚çŒÃ‚¢‚à‚Ì‚Ö):
 
-# å…¥åŠ›è¡Œ é …ç›®ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®ã¸):
+# “ü—Ís €–Ú‚Ì—š—ð (V‚µ‚¢‚à‚Ì‚©‚çŒÃ‚¢‚à‚Ì‚Ö):
 
-# ãƒ¬ã‚¸ã‚¹ã‚¿:
+# ƒŒƒWƒXƒ^:
 "0	CHAR	0
 	' 
 ""1	LINE	0
@@ -77,19 +80,29 @@ $
 "-	CHAR	0
 	' '
 
-# ãƒ•ã‚¡ã‚¤ãƒ«ãƒžãƒ¼ã‚¯:
-'0  6  33  ~\vimfiles\.netrwhist
-'1  41  0  ~\_vimrc
-'2  1  0  D:\apps\vim\$MYVIMRC
-'3  5  2  ~\Desktop\æœ«å°¾å†å¸°ã¨ã‹ãªã‚“ã¨ã‹.txt
-'4  13  0  ~\_vimrc
-'5  28  6  ~\_vimrc
-'6  8  17  ~\_vimrc
-'7  21  78  ~\Desktop\todayTask.txt
-'8  24  11  ~\Desktop\todayTask.txt
-'9  18  24  ~\Desktop\todayTask.txt
+# ƒtƒ@ƒCƒ‹ƒ}[ƒN:
+'0  31  29  ~\vimfiles\vimrc
+'1  17  25  ~\vimfiles\.git\config
+'2  411  0  ~\vimfiles\viminfo
+'3  3  42  D:\apps\util\git-otr
+'4  6  33  ~\vimfiles\.netrwhist
+'5  41  0  ~\_vimrc
+'6  1  0  D:\apps\vim\$MYVIMRC
+'7  5  2  ~\Desktop\æœ«å°¾å†å¸°ã¨ã‹ãªã‚“ã¨ã‹.txt
+'8  13  0  ~\_vimrc
+'9  28  6  ~\_vimrc
 
-# ã‚¸ãƒ£ãƒ³ãƒ—ãƒªã‚¹ãƒˆ (æ–°ã—ã„ã‚‚ã®ãŒå…ˆ):
+# ƒWƒƒƒ“ƒvƒŠƒXƒg (V‚µ‚¢‚à‚Ì‚ªæ):
+-'  31  29  ~\vimfiles\vimrc
+-'  32  0  ~\vimfiles\vimrc
+-'  33  0  ~\vimfiles\vimrc
+-'  1  0  ~\vimfiles\vimrc
+-'  17  25  ~\vimfiles\.git\config
+-'  1  0  ~\vimfiles\.git\config
+-'  411  0  ~\vimfiles\viminfo
+-'  25  0  ~\vimfiles\viminfo
+-'  3  42  D:\apps\util\git-otr
+-'  1  0  D:\apps\util\git-otr
 -'  6  33  ~\vimfiles\.netrwhist
 -'  1  0  ~\vimfiles\.netrwhist
 -'  41  0  ~\_vimrc
@@ -138,7 +151,6 @@ $
 -'  35  0  ~\_vimrc
 -'  1  0  ~\_gvimrc
 -'  49  0  ~\_viminfo
--'  25  0  ~\vimfiles\viminfo
 -'  1  0  ~\vimfiles\viminfo
 -'  34  0  ~\_vimrc
 -'  42  0  ~\_vimrc
@@ -179,19 +191,40 @@ $
 -'  161  68  ~\Desktop\Git\index.html
 -'  21  1  ~\Desktop\Git\index.html
 -'  1  0  ~\Desktop\Git\index.html
--'  41  0  ~\_vimrc
--'  30  0  ~\_vimrc
--'  66  79  ~\_vimrc
--'  71  1  ~\_vimrc
--'  70  0  ~\_vimrc
--'  1  0  ~\_vimrc
--'  62  15  ~\_vimrc
--'  1  0  D:\apps\vim\$MYVIMRC
--'  5  2  ~\Desktop\æœ«å°¾å†å¸°ã¨ã‹ãªã‚“ã¨ã‹.txt
--'  20  0  ~\Desktop\æœ«å°¾å†å¸°ã¨ã‹ãªã‚“ã¨ã‹.txt
--'  4  4  ~\Desktop\æœ«å°¾å†å¸°ã¨ã‹ãªã‚“ã¨ã‹.txt
 
-# ãƒ•ã‚¡ã‚¤ãƒ«å†…ãƒžãƒ¼ã‚¯ã®å±¥æ­´ (æ–°ã—ã„ã‚‚ã®ã‹ã‚‰å¤ã„ã‚‚ã®):
+# ƒtƒ@ƒCƒ‹“àƒ}[ƒN‚Ì—š—ð (V‚µ‚¢‚à‚Ì‚©‚çŒÃ‚¢‚à‚Ì):
+
+> ~\vimfiles\vimrc
+	"	31	29
+	^	31	30
+	.	31	29
+	+	42	9
+	+	33	0
+	+	33	0
+	+	31	0
+	+	32	0
+	+	31	29
+
+> ~\vimfiles\.git\config
+	"	17	25
+
+> ~\vimfiles\viminfo
+	"	411	0
+
+> D:\apps\util\git-otr
+	"	3	42
+	^	3	43
+	.	3	42
+	+	1	8
+	+	2	30
+	+	3	42
+
+> D:\apps\util\git-sunotora
+	"	3	39
+	^	3	40
+	.	3	39
+	+	2	28
+	+	3	39
 
 > ~\vimfiles\.netrwhist
 	"	6	33
@@ -416,6 +449,3 @@ $
 
 > ~\_viminfo
 	"	5	14
-
-> ~\vimfiles\viminfo
-	"	25	0

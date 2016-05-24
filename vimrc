@@ -29,6 +29,7 @@ NeoBundle 'Shougo/echodoc'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'tpope/vim-surround' 
 NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-repeat'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'cohama/agit.vim'
 

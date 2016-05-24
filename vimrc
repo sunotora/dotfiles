@@ -53,6 +53,20 @@ set viminfo='50,\"1000,:0,n~/vimfiles/viminfo
 
 set iminsert=2
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set list
+set listchars=tab:>-
+
+set clipboard=unnamed
+set clipboard+=unnamedplus
+set nojoinspaces
+set whichwrap&
+set whichwrap+=h,l
+set nostartofline
+
 nnoremap <Left> <nop>
 nnoremap <Right> <nop>
 nnoremap <Up> <nop>
@@ -68,19 +82,17 @@ vnoremap <Down> <nop>
 """"""""""""""""""""""""""""""
 " 全角スペースの表示
 """"""""""""""""""""""""""""""
-function! ZenkakuSpace()
-    highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
-endfunction
-
-if has('syntax')
-    augroup ZenkakuSpace
-        autocmd!
-        autocmd ColorScheme * call ZenkakuSpace()
-        autocmd VimEnter,WinEnter,BufRead * let w:m1=matchadd('ZenkakuSpace', '　')
-    augroup END
-    call ZenkakuSpace()
-endif
+"function! ZenkakuSpace()
+"    highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
+"endfunction
+"
+"if has('syntax')
+"    augroup ZenkakuSpace
+"        autocmd!
+"        autocmd ColorScheme * call ZenkakuSpace()
+"        autocmd VimEnter,WinEnter,BufRead * let w:m1=matchadd('ZenkakuSpace','　')
+"    augroup END
+"    call ZenkakuSpace()
+"endif
 """"""""""""""""""""""""""""""
-
-
 

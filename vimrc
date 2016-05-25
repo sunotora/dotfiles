@@ -32,7 +32,8 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'cohama/agit.vim'
-
+NeoBundle 'itchyny/vim-parenmatch'
+NeoBundle 'itchyny/vim-cursorword'
 
 call neobundle#end()
 

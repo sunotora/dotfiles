@@ -363,6 +363,11 @@ agit.vim	agit.txt	/*agit.vim*
 b:neocomplete_sources	neocomplete.txt	/*b:neocomplete_sources*
 cS	surround.txt	/*cS*
 cs	surround.txt	/*cs*
+cursorword	cursorword.txt	/*cursorword*
+cursorword-changelog	cursorword.txt	/*cursorword-changelog*
+cursorword-contents	cursorword.txt	/*cursorword-contents*
+cursorword-introduction	cursorword.txt	/*cursorword-introduction*
+cursorword.txt	cursorword.txt	/*cursorword.txt*
 ds	surround.txt	/*ds*
 echodoc	echodoc.txt	/*echodoc*
 echodoc#disable()	echodoc.txt	/*echodoc#disable()*
@@ -965,6 +970,11 @@ neocomplete-unite-sources	neocomplete.txt	/*neocomplete-unite-sources*
 neocomplete-user-sources	neocomplete.txt	/*neocomplete-user-sources*
 neocomplete-variables	neocomplete.txt	/*neocomplete-variables*
 neocomplete.txt	neocomplete.txt	/*neocomplete.txt*
+parenmatch	parenmatch.txt	/*parenmatch*
+parenmatch-changelog	parenmatch.txt	/*parenmatch-changelog*
+parenmatch-contents	parenmatch.txt	/*parenmatch-contents*
+parenmatch-introduction	parenmatch.txt	/*parenmatch-introduction*
+parenmatch.txt	parenmatch.txt	/*parenmatch.txt*
 surround	surround.txt	/*surround*
 surround-customizing	surround.txt	/*surround-customizing*
 surround-issues	surround.txt	/*surround-issues*

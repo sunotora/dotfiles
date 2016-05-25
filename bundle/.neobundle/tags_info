@@ -6,7 +6,9 @@ neocomplete.vim
 nerdtree
 unite-colorscheme
 unite.vim
+vim-cursorword
 vim-fugitive
+vim-parenmatch
 vim-repeat
 vim-surround
 vim-textmanip

@@ -67,6 +67,7 @@ set nojoinspaces
 set whichwrap&
 set whichwrap+=h,l
 set nostartofline
+set nrformats=
 
 nnoremap <Left> <nop>
 nnoremap <Right> <nop>

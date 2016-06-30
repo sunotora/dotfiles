@@ -13,5 +13,6 @@ vim-parenmatch
 vim-repeat
 vim-surround
 vim-textmanip
+vim-trailing-whitespace
 vimfiler.vim
 vimshell.vim

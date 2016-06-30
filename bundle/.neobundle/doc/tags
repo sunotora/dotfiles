@@ -25,6 +25,8 @@
 :NeoBundleUpdate	neobundle.txt	/*:NeoBundleUpdate*
 :NeoBundleUpdate!	neobundle.txt	/*:NeoBundleUpdate!*
 :NeoBundleUpdatesLog	neobundle.txt	/*:NeoBundleUpdatesLog*
+FixWhitespace	trailing-whitespace.txt	/*FixWhitespace*
+FixWhitespace-variables	trailing-whitespace.txt	/*FixWhitespace-variables*
 commentary.txt	commentary.txt	/*commentary.txt*
 g:neobundle#cache_file	neobundle.txt	/*g:neobundle#cache_file*
 g:neobundle#default_options	neobundle.txt	/*g:neobundle#default_options*
@@ -140,6 +142,7 @@ neobundle-usage	neobundle.txt	/*neobundle-usage*
 neobundle-variables	neobundle.txt	/*neobundle-variables*
 neobundle.txt	neobundle.txt	/*neobundle.txt*
 o_gc	commentary.txt	/*o_gc*
+trailing-whitespace.txt	trailing-whitespace.txt	/*trailing-whitespace.txt*
 unite-action-neobundle-lazy	neobundle.txt	/*unite-action-neobundle-lazy*
 unite-action-neobundle-search	neobundle.txt	/*unite-action-neobundle-search*
 unite-kind-neobundle	neobundle.txt	/*unite-kind-neobundle*

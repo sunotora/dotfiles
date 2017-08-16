@@ -83,27 +83,27 @@ vnoremap <Left> <nop>
 vnoremap <Right> <nop>
 vnoremap <Up> <nop>
 vnoremap <Down> <nop>
-"""""""""""""""""""""""""""""
-"全角文字の可視化
-"""""""""""""""""""""""""""""
-function! ZenkakuSpace()
-    highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
-endfunction
-
-if has('syntax')
-    augroup ZenkakuSpace
-        autocmd!
-        autocmd ColorScheme * call ZenkakuSpace()
-        autocmd VimEnter,WinEnter,BufRead * let w:m1=matchadd('ZenkakuSpace','　')
-    augroup END
-    call ZenkakuSpace()
-endif
-"""""""""""""""""""""""""""""
-" neocomplete
-let g:neocomplete#enable_at_startup = 1
-let g:neocomplete#disable_auto_complete = 0
-let g:neocomplete#auto_completion_start_length = 1
-let g:neocomplete#enable_smart_case = 1
-let g:neocomplete#sources#syntax#min_keyword_length = 3
-let g:neocomplete#max_list = 200
-inoremap <expr><C-l> neocomplete#complete_common_string()
+""""""""""""""""""""""""""""""
+""全角文字の可視化
+""""""""""""""""""""""""""""""
+"function! ZenkakuSpace()
+"    highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
+"endfunction
+"
+"if has('syntax')
+"    augroup ZenkakuSpace
+"        autocmd!
+"        autocmd ColorScheme * call ZenkakuSpace()
+"        autocmd VimEnter,WinEnter,BufRead * let w:m1=matchadd('ZenkakuSpace','　')
+"    augroup END
+"    call ZenkakuSpace()
+"endif
+""""""""""""""""""""""""""""""
+"" neocomplete
+"let g:neocomplete#enable_at_startup = 1
+"let g:neocomplete#disable_auto_complete = 0
+"let g:neocomplete#auto_completion_start_length = 1
+"let g:neocomplete#enable_smart_case = 1
+"let g:neocomplete#sources#syntax#min_keyword_length = 3
+"let g:neocomplete#max_list = 200
+"inoremap <expr><C-l> neocomplete#complete_common_string()

@@ -71,18 +71,18 @@ set whichwrap+=h,l
 set nostartofline
 set nrformats=
 
-nnoremap <Left> <nop>
-nnoremap <Right> <nop>
-nnoremap <Up> <nop>
-nnoremap <Down> <nop>
-inoremap <Left> <nop>
-inoremap <Right> <nop>
-inoremap <Up> <nop>
-inoremap <Down> <nop>
-vnoremap <Left> <nop>
-vnoremap <Right> <nop>
-vnoremap <Up> <nop>
-vnoremap <Down> <nop>
+"nnoremap <Left> <nop>
+"nnoremap <Right> <nop>
+"nnoremap <Up> <nop>
+"nnoremap <Down> <nop>
+"inoremap <Left> <nop>
+"inoremap <Right> <nop>
+"inoremap <Up> <nop>
+"inoremap <Down> <nop>
+"vnoremap <Left> <nop>
+"vnoremap <Right> <nop>
+"vnoremap <Up> <nop>
+"vnoremap <Down> <nop>
 """"""""""""""""""""""""""""""
 ""全角文字の可視化
 """"""""""""""""""""""""""""""

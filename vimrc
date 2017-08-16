@@ -19,8 +19,8 @@ NeoBundle 'Shougo/unite.vim'
 "\     'unix' : 'gmake',
 "\    },
 "\ }
-NeoBundle 'Shougo/vimshell.vim'
-NeoBundle 'Shougo/vimfiler.vim'
+"NeoBundle 'Shougo/vimshell.vim'
+"NeoBundle 'Shougo/vimfiler.vim'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 't9md/vim-textmanip'
 
@@ -31,8 +31,8 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-commentary'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'cohama/agit.vim'
+"NeoBundle 'scrooloose/nerdtree'
+"NeoBundle 'cohama/agit.vim'
 NeoBundle 'itchyny/vim-parenmatch'
 NeoBundle 'itchyny/vim-cursorword'
 NeoBundle 'bronson/vim-trailing-whitespace'

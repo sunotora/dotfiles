@@ -86,19 +86,19 @@ vnoremap <silent> <C-p> "0p
 "vnoremap <Right> <nop>
 "vnoremap <Up> <nop>
 "vnoremap <Down> <nop>
-""""""""""""""""""""""""""""""
-""全角文字の可視化
-""""""""""""""""""""""""""""""
-"function! ZenkakuSpace()
-"    highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
-"endfunction
-"
-"if has('syntax')
-"    augroup ZenkakuSpace
-"        autocmd!
-"        autocmd ColorScheme * call ZenkakuSpace()
-"        autocmd VimEnter,WinEnter,BufRead * let w:m1=matchadd('ZenkakuSpace','　')
-"    augroup END
-"    call ZenkakuSpace()
-"endif
-""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""
+"全角文字の可視化
+"""""""""""""""""""""""""""""
+function! ZenkakuSpace()
+    highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
+endfunction
+
+if has('syntax')
+    augroup ZenkakuSpace
+        autocmd!
+        autocmd ColorScheme * call ZenkakuSpace()
+        autocmd VimEnter,WinEnter,BufRead * let w:m1=matchadd('ZenkakuSpace','　')
+    augroup END
+    call ZenkakuSpace()
+endif
+"""""""""""""""""""""""""""""

@@ -5,8 +5,10 @@ if has("vim_starting")
   set nocompatible
 endif
 
+" ホームディレクトリ
+let s:home_dir = expand('~/vimfiles')
 " プラグインが実際にインストールされるディレクトリ
-let s:dein_dir = expand('~/vimfiles/.cache/dein')
+let s:dein_dir = s:home_dir . '/.cache/dein'
 " dein.vim 本体
 let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
 " dein.vim がなければ github から落としてくる
@@ -22,10 +24,9 @@ if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
 
   " プラグインリストを収めた TOML ファイル
-  " 予め TOML ファイル(後述)を用意しておく
-  let g:rc_dir    = expand('~/vimfiles/rc')
-  let s:toml      = g:rc_dir . '/dein.toml'
-  let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
+  " 予め TOML ファイルを用意しておく
+  let s:toml      = s:home_dir . '/dein.toml'
+  let s:lazy_toml = s:home_dir . '/dein_lazy.toml'
 
   " TOML を読み込み、キャッシュしておく
   call dein#load_toml(s:toml,      {'lazy': 0})

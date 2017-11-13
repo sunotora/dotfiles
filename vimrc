@@ -71,6 +71,8 @@ set whichwrap+=h,l
 set nostartofline
 set nrformats=
 
+set nowrap
+vnoremap <silent> <C-p> "0p
 "nnoremap <Left> <nop>
 "nnoremap <Right> <nop>
 "nnoremap <Up> <nop>

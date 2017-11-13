@@ -2,48 +2,47 @@ filetype off
 
 if has("vim_starting")
   set nocompatible
-  set runtimepath+=~/vimfiles/bundle/neobundle.vim
 endif
 
-call neobundle#begin(expand('~/vimfiles/bundle/'))
-NeoBundleFetch 'Shougo/neobundle.vim'
+" プラグインが実際にインストールされるディレクトリ
+let s:dein_dir = expand('~/vimfiles/.cache/dein')
+" dein.vim 本体
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+" dein.vim がなければ github から落としてくる
+if &runtimepath !~# '/dein.vim'
+  if !isdirectory(s:dein_repo_dir)
+    execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
+  endif
+  execute 'set runtimepath^=' . s:dein_repo_dir
+endif
 
-NeoBundle 'Shougo/neocomplete.vim'
-NeoBundle 'Shougo/unite.vim'
-"NeoBundle 'Shougo/vimproc.vim', {
-"\ 'build' : {
-"\     'windows' : 'tools\\update-dll-mingw',
-"\     'cygwin' : 'make -f make_cygwin.mak',
-"\     'mac' : 'make -f make_mac.mak',
-"\     'linux' : 'make',
-"\     'unix' : 'gmake',
-"\    },
-"\ }
-"NeoBundle 'Shougo/vimshell.vim'
-"NeoBundle 'Shougo/vimfiler.vim'
-NeoBundle 'itchyny/lightline.vim'
-NeoBundle 't9md/vim-textmanip'
+" 設定開始
+if dein#load_state(s:dein_dir)
+  call dein#begin(s:dein_dir)
 
-NeoBundle 'ujihisa/unite-colorscheme'
-NeoBundle 'Shougo/echodoc'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'tpope/vim-repeat'
-NeoBundle 'tpope/vim-commentary'
-"NeoBundle 'scrooloose/nerdtree'
-"NeoBundle 'cohama/agit.vim'
-NeoBundle 'itchyny/vim-parenmatch'
-NeoBundle 'itchyny/vim-cursorword'
-NeoBundle 'bronson/vim-trailing-whitespace'
+  " プラグインリストを収めた TOML ファイル
+  " 予め TOML ファイル(後述)を用意しておく
+  let g:rc_dir    = expand('~/vimfiles/rc')
+  let s:toml      = g:rc_dir . '/dein.toml'
+  let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
 
-call neobundle#end()
+  " TOML を読み込み、キャッシュしておく
+  call dein#load_toml(s:toml,      {'lazy': 0})
+  call dein#load_toml(s:lazy_toml, {'lazy': 1})
+
+  " 設定終了
+  call dein#end()
+  call dein#save_state()
+endif
+
+" もし、未インストールものものがあったらインストール
+if dein#check_install()
+  call dein#install()
+endif
 
 filetype plugin indent on
 
-" Installation check.
-NeoBundleCheck
-
+" settings
 set enc=utf-8
 set fenc=utf-8
 
@@ -101,11 +100,3 @@ vnoremap <silent> <C-p> "0p
 "    call ZenkakuSpace()
 "endif
 """"""""""""""""""""""""""""""
-"" neocomplete
-"let g:neocomplete#enable_at_startup = 1
-"let g:neocomplete#disable_auto_complete = 0
-"let g:neocomplete#auto_completion_start_length = 1
-"let g:neocomplete#enable_smart_case = 1
-"let g:neocomplete#sources#syntax#min_keyword_length = 3
-"let g:neocomplete#max_list = 200
-"inoremap <expr><C-l> neocomplete#complete_common_string()

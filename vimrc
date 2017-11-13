@@ -1,5 +1,6 @@
 filetype off
 
+" vi互換スイッチをオフに設定(vimの便利機能を使えるようにする)
 if has("vim_starting")
   set nocompatible
 endif
@@ -35,7 +36,7 @@ if dein#load_state(s:dein_dir)
   call dein#save_state()
 endif
 
-" もし、未インストールものものがあったらインストール
+" もし、未インストールのものがあったらインストール
 if dein#check_install()
   call dein#install()
 endif

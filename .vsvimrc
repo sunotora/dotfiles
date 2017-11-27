@@ -1,0 +1,21 @@
+set number
+set cursorline
+
+"set iminsert=2
+
+nnoremap <Left> <nop>
+nnoremap <Right> <nop>
+nnoremap <Up> <nop>
+nnoremap <Down> <nop>
+"編集中は補完候補を選ぶためキーボード操作必要
+"inoremap <Left> <nop>
+"inoremap <Right> <nop>
+"inoremap <Up> <nop>
+"inoremap <Down> <nop>
+vnoremap <Left> <nop>
+vnoremap <Right> <nop>
+vnoremap <Up> <nop>
+vnoremap <Down> <nop>
+vnoremap <silent> <C-p> "0p
+inoremap jj <Esc>
+inoremap <silent> っj <ESC>

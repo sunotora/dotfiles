@@ -17,5 +17,6 @@ vnoremap <Right> <nop>
 vnoremap <Up> <nop>
 vnoremap <Down> <nop>
 vnoremap <silent> <C-p> "0p
-inoremap jj <Esc>
-inoremap <silent> ‚Áj <ESC>
+inoremap jj <Esc>:set iminsert=0<CR>
+inoremap <silent> ‚Á‚Š <ESC>:set iminsert=0<CR>
+inoremap <silent> ‚Š‚Š <ESC>:set iminsert=0<CR>

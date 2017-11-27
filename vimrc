@@ -75,8 +75,10 @@ set nrformats=
 set nowrap
 noremap J gJ
 vnoremap <silent> <C-p> "0p
-inoremap jj <Esc>
-inoremap <silent> っj <ESC>
+inoremap <Esc> <Esc>:set iminsert=0<CR>
+inoremap jj <Esc>:set iminsert=0<CR>
+inoremap <silent> ｊｊ <Esc>:set iminsert=0<CR>
+inoremap <silent> っｊ <Esc>:set iminsert=0<CR>
 "nnoremap <Left> <nop>
 "nnoremap <Right> <nop>
 "nnoremap <Up> <nop>

@@ -74,6 +74,8 @@ set nrformats=
 
 set nowrap
 vnoremap <silent> <C-p> "0p
+inoremap jj <Esc>
+inoremap <silent> っj <ESC>
 "nnoremap <Left> <nop>
 "nnoremap <Right> <nop>
 "nnoremap <Up> <nop>

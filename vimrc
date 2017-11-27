@@ -73,6 +73,7 @@ set nostartofline
 set nrformats=
 
 set nowrap
+noremap J gJ
 vnoremap <silent> <C-p> "0p
 inoremap jj <Esc>
 inoremap <silent> っj <ESC>

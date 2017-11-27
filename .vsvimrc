@@ -2,7 +2,7 @@ set number
 set cursorline
 
 "set iminsert=2
-
+noremap J gJ
 nnoremap <Left> <nop>
 nnoremap <Right> <nop>
 nnoremap <Up> <nop>

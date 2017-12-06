@@ -73,7 +73,10 @@ set nostartofline
 set nrformats=
 
 set nowrap
+set hlsearch
+
 noremap J gJ
+nnoremap <Esc> <Esc>:set hlsearch!<CR>
 vnoremap <silent> <C-p> "0p
 inoremap <Esc> <Esc>:set iminsert=0<CR>
 inoremap jj <Esc>:set iminsert=0<CR>

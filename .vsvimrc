@@ -1,8 +1,10 @@
 set number
 set cursorline
+set hlsearch
 
 "set iminsert=2
 noremap J gJ
+nnoremap <Esc> <Esc>:set hlsearch!<CR>
 nnoremap <Left> <nop>
 nnoremap <Right> <nop>
 nnoremap <Up> <nop>

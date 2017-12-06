@@ -45,3 +45,6 @@ repo = 'Shougo/vimshell.vim'
 
 [[plugins]]
 repo = 'Shougo/vimfiler.vim'
+
+[[plugins]]
+repo = 'nelstrom/vim-visual-star-search'

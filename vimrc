@@ -75,6 +75,7 @@ set nrformats=
 set nowrap
 set hlsearch
 
+set formatoptions+=mM
 noremap J gJ
 nnoremap <Esc> <Esc>:set hlsearch!<CR>
 vnoremap <silent> <C-p> "0p

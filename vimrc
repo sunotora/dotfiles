@@ -55,7 +55,7 @@ let &directory = &backupdir
 let &undodir = &backupdir
 set viminfo='50,\"1000,:0,n~/vimfiles/viminfo
 
-set iminsert=2
+"set iminsert=2
 
 set tabstop=4
 set softtabstop=4

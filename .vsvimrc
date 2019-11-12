@@ -1,6 +1,7 @@
 set number
 set cursorline
 set hlsearch
+set nojoinspaces
 
 "set iminsert=2
 set formatoptions+=mM
